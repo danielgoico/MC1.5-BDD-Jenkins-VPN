@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="176.5" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Mis envios" name="Nuevo envío individual - Example #1.1" time="58.981">
+<system-out><![CDATA[
+Given el usuario se situa en los campos email y password....................passed
+Given el usuario 'Consumidor final' está logueado y en la page home.........passed
+When ingresa en nuevo envío individual......................................passed
+And llena los campos de paquete.............................................passed
+And selecciona el 'Domicilio' completa el formulario de destino.............passed
+And selecciona el 'Clasico' y procede a pagar...............................passed
+And se muestra la grilla de checkout........................................passed
+Then realiza el pago con 'Tarjeta' del envío................................passed
+And se confirma que el pago se ha realizado con éxito.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Mis envios" name="Nuevo envío individual - Example #1.2" time="57.283">
+<system-out><![CDATA[
+Given el usuario se situa en los campos email y password....................passed
+Given el usuario 'Monotributista' está logueado y en la page home...........passed
+When ingresa en nuevo envío individual......................................passed
+And llena los campos de paquete.............................................passed
+And selecciona el 'Sucursal' completa el formulario de destino..............passed
+And selecciona el 'Expreso' y procede a pagar...............................passed
+And se muestra la grilla de checkout........................................passed
+Then realiza el pago con 'Saldo' del envío..................................passed
+And se confirma que el pago se ha realizado con éxito.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Mis envios" name="Nuevo envío individual - Example #1.3" time="59.882">
+<system-out><![CDATA[
+Given el usuario se situa en los campos email y password....................passed
+Given el usuario 'Empresa' está logueado y en la page home..................passed
+When ingresa en nuevo envío individual......................................passed
+And llena los campos de paquete.............................................passed
+And selecciona el 'Domicilio' completa el formulario de destino.............passed
+And selecciona el 'Clasico' y procede a pagar...............................passed
+And se muestra la grilla de checkout........................................passed
+Then realiza el pago con 'Cuenta Corriente' del envío.......................passed
+And se confirma que el pago se ha realizado con éxito.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
